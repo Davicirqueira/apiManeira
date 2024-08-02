@@ -20,4 +20,4 @@ servidor.get('/calculadora/subtracao/:n1/:n2', (req, resp) => {
 })
 
 
-servidor.listen(5050, () => console.log(' ---> API subiu na porta 5050') );
+servidor.listen(5050, () => console.log('----> API subiu na porta 5050') );
